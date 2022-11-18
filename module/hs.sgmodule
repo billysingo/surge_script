@@ -5,4 +5,4 @@
 hostname = %APPEND% jsstm.jszwfw.gov.cn
 
 [Script]
-hs = type=http-respose,requires-body=1,max-size=1024,pattern=https://jsstm.jszwfw.gov.cn/healthCode/queryHs,script-path=https://raw.githubusercontent.com/billysingo/surge_script/main/script/hs.js
+hs = type=http-response,requires-body=1,max-size=1024,pattern=https://jsstm.jszwfw.gov.cn/healthCode/queryHs,script-path=https://raw.githubusercontent.com/billysingo/surge_script/main/script/hs.js
